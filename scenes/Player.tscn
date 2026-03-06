@@ -78,4 +78,6 @@ frame = 2
 libraries/ = SubResource("AnimationLibrary_sbh6e")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1379508403]
+limit_left = 0
+limit_right = 1152
 limit_bottom = 500
