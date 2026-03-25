@@ -1,7 +1,7 @@
 extends Area2D
 
-@export var sceneName = "LoseScreen"
+@export var scene_name = "LoseScreen"
 
 func _on_body_entered(body):
 	if body.get_name() == "Player":
-		get_tree().change_scene_to_file("res://scenes/" + sceneName + ".tscn")
+		get_tree().change_scene_to_file("res://scenes/" + scene_name + ".tscn")

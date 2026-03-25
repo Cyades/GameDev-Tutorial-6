@@ -73,12 +73,12 @@ texture = ExtResource("3_odhdn")
 [node name="Area2D" parent="Sprite2D" unique_id=1410135531 instance=ExtResource("4_dw26h")]
 position = Vector2(1.9999998, -3.999998)
 scale = Vector2(2.245, 3.4)
-sceneName = "Level2"
+scene_name = "Level2"
 
 [node name="Area2D2" parent="Sprite2D" unique_id=1042474929 instance=ExtResource("4_dw26h")]
 position = Vector2(-732, 738)
 scale = Vector2(36.98, 1)
-sceneName = "Level1"
+scene_name = "Level1"
 
 [node name="Node2D" type="Node2D" parent="." unique_id=737218101]
 position = Vector2(70, 34)
