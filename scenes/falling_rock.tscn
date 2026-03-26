@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cswp1xgd7gcqf"]
 
-[ext_resource type="Script" uid="uid://b1c8bdg4an3xf" path="res://scenes/falling_rock.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/falling_rock.gd" id="1_script"]
 [ext_resource type="Texture2D" uid="uid://pqqy2vvm231d" path="res://assets/kenney_platformerpack/PNG/Tiles/rock.png" id="2_texture"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rock"]

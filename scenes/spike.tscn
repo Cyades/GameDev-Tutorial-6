@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="Script" path="res://scenes/spike.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/spike.gd" id="1_script"]
 [ext_resource type="Texture2D" path="res://assets/kenney_platformerpack/PNG/Tiles/spikes.png" id="2_texture"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_spike"]

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://qt2eeo8scneg"]
+
+[ext_resource type="FontFile" uid="uid://bpaegc6lsovqt" path="res://assets/Fonts/CC Wild Words Roman.ttf" id="1_coxm1"]
+[ext_resource type="Script" uid="uid://c7qeng8fqer7x" path="res://scripts/label.gd" id="1_ywwlr"]
+
+[node name="LifeCounter" type="MarginContainer" unique_id=1950852891]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="." unique_id=1402869110]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_coxm1")
+theme_override_font_sizes/font_size = 35
+script = ExtResource("1_ywwlr")
